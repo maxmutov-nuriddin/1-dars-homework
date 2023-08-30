@@ -1,0 +1,154 @@
+.article {
+  margin: 100px 0 300px 0;
+}
+
+.article__title {
+  margin: 0;
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57.984px;
+}
+
+.article__box-inner {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article__inner-img {
+  text-align: center;
+}
+
+.article__inner-imgs {
+  width: 100%;
+  max-width: 600px;
+}
+
+.article__box {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.article__box-btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  border-radius: 14px;
+  background: #0075FF;
+  padding: 26px 38px;
+}
+
+.article__box-btns {
+  color: #333;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px;
+  padding: 26px 38px;
+  border-radius: 14px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  box-shadow: 0px 4px 10px 0px rgba(20, 20, 43, 0.04);
+}
+
+.article__box-btn:hover {
+  background: #211F54;
+}
+
+.article__box-btns:hover {
+  background: #c4c7cc;
+}
+
+.box__inner-title {
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.article__boxes {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.article__inners {
+  padding: 20px;
+  bottom: -200px;
+  left: 55px;
+  right: 60%;
+  position: absolute;
+  border-radius: 24px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+}
+
+.article__inner {
+  padding: 20px;
+  bottom: -200px;
+  left: 60%;
+  right: 60px;
+  position: absolute;
+  border-radius: 24px;
+  border: 1px solid #EFF0F6;
+  background: #FFF;
+  box-shadow: 0px 2px 6px 0px rgba(20, 20, 43, 0.04);
+}
+
+data {
+  color: #211F54;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.998px;
+}
+
+.mini__box {
+  padding: 15px 17px;
+  background: #0075FF;
+}
+
+.box__inner-date {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 900px) {
+  .article {
+    margin-bottom: 100px;
+  }
+
+  .article__box-inner {
+    flex-wrap: wrap;
+  }
+
+  .article__boxes {
+    flex-wrap: wrap;
+  }
+
+  .article__inner,
+  .article__inners {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 474px) {
+  .article__box {
+    flex-wrap: wrap;
+  }
+}
